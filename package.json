@@ -1,14 +1,21 @@
 {
-  "name": "blogpost-cms-api",
-  "version": "1.0.0",
-  "description": "api for a blogpost content management system",
-  "main": "index.js",
-  "author": "RihardsJ",
-  "license": "MIT",
-  "dependencies": {
-    "awilix": "4.3.3",
-    "dotenv": "8.2.0",
-    "express": "4.17.1",
-    "pg": "8.5.1"
-  }
+	"name": "blogpost-cms-api",
+	"version": "1.0.0",
+	"description": "api for a blogpost content management system",
+	"main": "index.js",
+	"author": "RihardsJ",
+	"license": "MIT",
+	"scripts": {
+		"start": "node app.js",
+		"start:dev": "nodemon -e js app.js"
+	},
+	"dependencies": {
+		"awilix": "4.3.3",
+		"dotenv": "8.2.0",
+		"express": "4.17.1",
+		"pg": "8.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "2.0.7"
+	}
 }
