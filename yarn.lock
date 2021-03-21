@@ -114,7 +114,7 @@ __metadata:
     awilix: 4.3.3
     dotenv: 8.2.0
     express: 4.17.1
-    pg: ^8.5.1
+    pg: 8.5.1
   languageName: unknown
   linkType: soft
 
@@ -786,7 +786,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg@npm:^8.5.1":
+"pg@npm:8.5.1":
   version: 8.5.1
   resolution: "pg@npm:8.5.1"
   dependencies:
