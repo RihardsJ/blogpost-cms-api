@@ -3,6 +3,8 @@
 const container = require('./src/config/container');
 
 const server = container.resolve('serverService');
-const { DATABASE } = container.resolve('settings');
+const { PORT } = container.resolve('settings');
 
-server(DATABASE.port);
+console.log(PORT);
+
+server(PORT);

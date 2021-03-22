@@ -1,6 +1,5 @@
-module.exports = ({ express }) =>
+module.exports = ({ app }) =>
 	function start(port) {
-		const app = express();
 		if (!port)
 			throw new Error('Port is missing. Please provide server with a port');
 
